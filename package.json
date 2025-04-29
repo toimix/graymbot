@@ -1,0 +1,17 @@
+{
+  "name": "graymbot",
+  "version": "0.1.0",
+  "private": true,
+  "main": "api/graymbot.ts", 
+  "scripts": {
+    "dev": "npx tsx ./api/graymbot.ts",
+    "build": "npm run vercel-build"
+   },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "grammy": "^1.36.1"
+  },
+  "devDependencies": {
+  "@vercel/node": "^5.1.14"
+  }
+}
