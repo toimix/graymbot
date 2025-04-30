@@ -10,7 +10,7 @@ const bot = new Bot(token);
 // Register listeners to handle messages
 bot.on("message:text", (ctx) => ctx.reply("Echo: " + ctx.message.text));
 
-export default webhookCallback(bot, "https");
+//export default webhookCallback(bot, "https");
 
 // Start the bot (using long polling)
-// bot.start();
+bot.start();
